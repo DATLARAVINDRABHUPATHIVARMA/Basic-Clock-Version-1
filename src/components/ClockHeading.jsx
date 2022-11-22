@@ -3,4 +3,3 @@ let ClockHeading = () => {
 };
 
 export default ClockHeading;
-
