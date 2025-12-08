@@ -1,5 +1,5 @@
 let ClockHeading = () =>{
-  return <h1 className="fw-bolder">My PC Time</h1>;
+  return <h1 className="fw-bolder">Sruthi's Empire Time</h1>;
 };
 
 export default ClockHeading;

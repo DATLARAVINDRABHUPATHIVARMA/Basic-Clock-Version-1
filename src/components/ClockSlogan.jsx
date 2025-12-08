@@ -1,5 +1,12 @@
 let ClockSlogan = () =>{
-  return <p className="lead">This is the clock that shows time in Sruthi's Empire time zone</p>;
+  let time = new Date();
+  let timeZone = Intl.DateTimeFormat("en-US", {
+    timeZoneName: "long"
+  }).format(time);
+
+  timeZone = timeZone.split(", ").pop();
+
+  return <p className="lead">Highness Sruthi's Empire is following {timeZone}</p>;
 };
 
 export default ClockSlogan;
