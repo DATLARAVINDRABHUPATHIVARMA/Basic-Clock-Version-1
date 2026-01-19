@@ -6,7 +6,7 @@ let ClockSlogan = () =>{
 
   timeZone = timeZone.split(", ").pop();
 
-  return <p className="lead">Highness Sruthi's Empire is following {timeZone} </p>;
+  return <p className="lead">Highness Sruthi's Regal Empire is following {timeZone} </p>;
 };
 
 export default ClockSlogan;
