@@ -4,7 +4,7 @@ let ClockSlogan = () =>{
     timeZoneName: "long"
   }).format(time);
 
-  timeZone = timeZone.split(", ").pop();
+  timeZone = timeZone.split(", ").pop(); 
 
   return <p className="lead">Highness Sruthi's Regal Empire is following {timeZone} </p>;
 };
