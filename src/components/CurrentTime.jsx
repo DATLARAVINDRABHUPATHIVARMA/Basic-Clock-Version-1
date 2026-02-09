@@ -12,10 +12,7 @@ const CurrentTime = () => {
   }, []);
 
   const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-  const months = [
-    "January","February","March","April","May","June",
-    "July","August","September","October","November","December"
-  ];
+  const months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
 
   const dayName = days[time.getDay()];
   const date = time.getDate();
