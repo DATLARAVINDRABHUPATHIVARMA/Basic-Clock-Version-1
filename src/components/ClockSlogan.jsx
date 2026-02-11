@@ -1,4 +1,4 @@
-let ClockSlogan = () =>{
+let ClockSlogan = () => {
   let time = new Date();
   let timeZone = Intl.DateTimeFormat("en-US", {
     timeZoneName: "long"
