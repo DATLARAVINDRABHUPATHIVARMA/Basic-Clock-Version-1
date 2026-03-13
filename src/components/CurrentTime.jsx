@@ -46,4 +46,4 @@ const CurrentTime = () => {
   ); 
 };
 
-export default CurrentTime
+export default CurrentTime;
