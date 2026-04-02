@@ -1,16 +1,12 @@
 let ClockSlogan = () => {
   let time = new Date();
   let timeZone = Intl.DateTimeFormat("en-US", {
-    timeZoneName: "long",
+    timeZoneName: "long"
   }).format(time);
 
   timeZone = timeZone.split(", ").pop();
 
-  return (
-    <p className="lead">
-      Highness Sruthi's Regal Empire is following {timeZone}{" "}
-    </p>
-  );
+  return <p className="lead">Highness Sruthi's Regal Empire is following {timeZone} </p>;
 };
 
 export default ClockSlogan;
