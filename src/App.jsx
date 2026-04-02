@@ -12,6 +12,6 @@ function App() {
       <CurrentTime />
     </center>
   );
-}
+};
 
 export default App;
