@@ -1,6 +1,8 @@
 let ClockSlogan = () => {
   let time = new Date();
-  let timeZone = Intl.DateTimeFormat("en-US", { timeZoneName: "long" }).format(time);
+  let timeZone = Intl.DateTimeFormat("en-US", {
+    timeZoneName: "long"
+  }).format(time);
 
   timeZone = timeZone.split(", ").pop();
 
